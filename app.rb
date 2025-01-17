@@ -1,4 +1,4 @@
- 
+ # Main program loop
  def Main
   list = ToDoList.new
 
@@ -35,4 +35,5 @@
     end
   end
 end
+
 main
