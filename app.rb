@@ -1,4 +1,5 @@
-def main
+ 
+ def Main
   list = ToDoList.new
 
   puts "Welcome to the To-Do List Manager!"
@@ -34,3 +35,4 @@ def main
     end
   end
 end
+main
