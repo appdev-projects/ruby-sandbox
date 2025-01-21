@@ -1,5 +1,5 @@
 # Define the ToDoList class
-class ToDoList
+class to_do_list.rb
   attr_accessor :tasks
 
   def initialize
@@ -18,7 +18,7 @@ class ToDoList
     end
   end
 
-  def display_tasks
+  def display_tasks 
     if @tasks.empty?
       puts "Your to-do list is empty."
     else
