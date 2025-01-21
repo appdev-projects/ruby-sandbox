@@ -1,5 +1,6 @@
+# Main program loop, pls pls pls run
 main
-# Main program loop, updated/Chuck visits the Buymore! 
+
  def main
   require_relative to_do_list
   list = ToDoList.new
@@ -16,7 +17,7 @@ main
 
     case choice
     when 1
-      puts "\nYour Tasks:"
+      puts "\nYour Tasks:" 
       list.display_tasks
     when 2
       print "Enter a new task: "

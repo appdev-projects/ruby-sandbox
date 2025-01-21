@@ -1,4 +1,4 @@
-# Define the ToDoList class
+# Define the ToDoList class/ changed name to match to_do_list.rb to run
 class to_do_list.rb
   attr_accessor :tasks
 
