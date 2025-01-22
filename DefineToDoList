@@ -1,5 +1,4 @@
-# Define the ToDoList class/ changed name to match to_do_list.rb to run
-
+# Define the ToDoList class/ changed name to match snake case and test file ToDoList
 class ToDoList
   attr_accessor :tasks
 
