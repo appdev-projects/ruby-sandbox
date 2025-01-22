@@ -1,4 +1,4 @@
-# Main program loop, pls pls pls run
+# Main program loop
 require_relative './define_the_todo_list_class' # Updated to consistent file naming
 
 def main
