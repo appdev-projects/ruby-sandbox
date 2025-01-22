@@ -1,4 +1,4 @@
-# tests/test_calculator.rb
+# tests/test_calculator.rb, to calculate number of tasks
 
 require 'minitest/autorun'
 require './calculator'

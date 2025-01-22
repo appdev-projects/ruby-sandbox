@@ -1,3 +1,4 @@
+# Updated test file, duplicate deleted in the root
 require 'minitest/autorun'
 require_relative '../app'
 

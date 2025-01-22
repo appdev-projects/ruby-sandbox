@@ -1,5 +1,6 @@
-# Define the ToDoList class/ changed name to match to_do_list.rb to run
-class to_do_list.rb
+# Define the ToDoList class/ changed name to Pascal Case to match to_do_list.rb to run
+
+class ToDoList
   attr_accessor :tasks
 
   def initialize
@@ -18,7 +19,7 @@ class to_do_list.rb
     end
   end
 
-  def display_tasks 
+  def display_tasks
     if @tasks.empty?
       puts "Your to-do list is empty."
     else

@@ -1,8 +1,7 @@
 # Main program loop, pls pls pls run
-main
+require_relative './define_the_todo_list_class' # Updated to consistent file naming
 
- def main
-  require_relative to_do_list
+def main
   list = ToDoList.new
 
   puts "Welcome to the Grocery To-Do List Manager!"
@@ -17,7 +16,7 @@ main
 
     case choice
     when 1
-      puts "\nYour Tasks:" 
+      puts "\nYour Tasks:"
       list.display_tasks
     when 2
       print "Enter a new task: "
@@ -26,7 +25,7 @@ main
       puts "Task added successfully!!!"
     when 3
       list.display_tasks
-      print "Enter the number of the tasks to remove: "
+      print "Enter the number of the task to remove: "
       index = gets.chomp.to_i - 1
       list.remove_task(index)
       puts "Task removed successfully!!!"
@@ -38,5 +37,3 @@ main
     end
   end
 end
-
-main
