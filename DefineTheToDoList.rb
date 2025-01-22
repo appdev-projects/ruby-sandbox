@@ -1,4 +1,4 @@
-# Define the ToDoList class/ changed name to Pascal Case to match to_do_list.rb to run
+# Define the ToDoList class/ changed name to match to_do_list.rb to run
 
 class ToDoList
   attr_accessor :tasks
