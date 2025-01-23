@@ -1,5 +1,5 @@
 # Main program loop
-require_relative '/.define_to_do_list_class'
+require_relative './define_to_do_list'
  # Updated to consistent file naming; 
 
 def main
