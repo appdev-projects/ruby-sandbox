@@ -5,7 +5,7 @@ The To-Do List Manager is a command-line interface (CLI) application that helps 
 
 ## User Stories
 1. As a user, I want to view my to-do list, so that I can see all the tasks I need to complete.
-2. As a user, I want to add a task to my to-do list, so that I can keep track of new responsibilities.
+2. As a user, I want to add a task to my to-do list, so that I can keep track of new grocery needs.
 3. As a user, I want to remove a task from my to-do list, so that I can manage my tasks efficiently.
 
 ## Functional Requirements
