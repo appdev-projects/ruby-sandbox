@@ -3,13 +3,12 @@
 my_string = "Hello, world!"
 pp my_string
 
-# 1.ordinalize 
+# 1.ordinalize
 # 2.ordinalize
 # 53.ordinalize
 # 2009.ordinalize
 # -21.ordinalize
 # -134.ordinalize
-
 
 pp "What's your name?"
 
